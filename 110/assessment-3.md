@@ -1,8 +1,8 @@
-What are some of the limitations of using floats for layout? One of the limitations of using float for layout, is that it is much harder to control that kind of layout.
-For example, if you want to center a float so that it goes in the middle of a page, you have to add a margin on each side, and calculate what those margins should be. If you
-to have multiple floats that are evenly spaced in a row, it becomes much more complicated to space those floats out correctly. For example, if you want three floats to be spaced
-evenly in a row, you need to check what percentage of the page each of those floats will take up, and then calculate what the margins should be for each of the floats. You have
-to do a ton of manual work to create the right layout using floats, and you might need to make major changes in code for minor changes on the site.
+How will I try to keep up with the changes of tools and techniques for web development, and where can I look to find those changes? One website that I could use is caniuse.com.
+On this website, you can check if any feature is out-dated or unsupported by certain browsers.
+
+What are some of the limitations of using floats for layout? One of the limitations of using float for layout, is that you kind of have to manually control that kind of layout
+For example, if a float is larger that the block containing it, the float will simply overflow out of the parent block, and then you would have to manually change the size of the parent block. This would create a lot of extra work in a large site, because you would have to change the size of each parent block so that it contains the float.
 
 `Justify-content` is the property that affects the `main` axis of a `flex-box`. It is used to determine the layout of the `flex-container`, and place the `flex-items`
 accordingly. The main axis of the `flex-items` is determined by both the language that is being used on the site, and the `flex-direction`. The default `flex-direction` is
